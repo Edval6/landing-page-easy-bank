@@ -120,3 +120,16 @@ p{
 }
 
 /*fim*/
+
+/*Caracteristicas */
+
+.caracteristicas{
+    width: 100%;
+    height: 700px;
+    background-color: hsl(220, 16%, 96%);
+    display: flex;
+    flex-direction: column;
+    margin-top: -245px;
+}
+
+/*fim*/
