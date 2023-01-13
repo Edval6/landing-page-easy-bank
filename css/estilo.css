@@ -208,6 +208,7 @@ h3{
     margin-top: 2%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .mini-recentes{
@@ -215,6 +216,7 @@ h3{
     display: flex;
     flex-direction: column;
     background-color: white;
+    margin-right: 2%;
 }
 
 #img-rece{
