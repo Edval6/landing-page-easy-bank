@@ -190,7 +190,7 @@ h3{
 
 .recentes{
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: hsl(0, 0%, 98%);
     display: flex;
     flex-direction: column;
@@ -243,6 +243,86 @@ span{
 
 #min-p-rece{
     font-size: 14px;
+}
+
+/*fim*/
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: row;
+}
+
+.social{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#logo-foot{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#redes{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-foot-left{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.nav-foot-right{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+#ul-foot{
+    display: block;
+}
+
+#li-foot{
+    padding-bottom: 15px;
+}
+
+#li-foot a{
+    color: hsl(0, 0%, 98%);
+    font-size: 16px;
+}
+
+#direitos{
+    display: block;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+#to-right{
+    margin-left: 5%;
+}
+
+#p-rights{
+    margin-top: 10%;
+}
+
+#link-rights{
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
 }
 
 /*fim*/
