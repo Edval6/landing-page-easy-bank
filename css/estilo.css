@@ -53,8 +53,21 @@ li a{
     padding: 15px;
 }
 
+@media only screen and (max-device-width: 900px) {
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 a{
     text-decoration: none;
+}
+
+@media only screen and (max-device-width: 900px) {
+    header{
+        display: none;
+    }
 }
 
 /*introducao*/
@@ -118,13 +131,34 @@ p{
 
 }
 
+@media only screen and (max-device-width: 900px) {
+    .introducao{
+        flex-direction: column;
+    }
+
+    .esquerda{
+        width: 100%;
+    }
+
+    .direita{
+        display: none;
+    }
+
+    .apresentacao{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 /*fim*/
 
 /*Caracteristicas */
 
 .caracteristicas{
     width: 100%;
-    height: 550px;
+    min-height: 550px;
     background-color: hsl(220, 16%, 96%);
     display: flex;
     flex-direction: column;
@@ -182,6 +216,23 @@ h3{
     font-family: sans-serif;
     color: hsl(233, 26%, 24%);
     font-weight: 50;
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    .linha-carcteristicas{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .mini-caracteristicas{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        align-items: center;
+    }
 }
 
 /*fim*/
