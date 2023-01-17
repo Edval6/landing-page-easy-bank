@@ -57,6 +57,9 @@ li a{
         display: none;
  }
 
+ #close-icon{
+    display: none;
+ }
 
 @media only screen and (max-device-width: 900px) {
     .btn{
@@ -94,6 +97,14 @@ a{
         margin-top: 7%;
         margin-left: 25%;
         
+    }
+
+    #close-icon{
+        display: none;
+        width: 6%;
+        height: 25%;
+        margin-top: 7%;
+        margin-left: 25%;
     }
 
     #menu-mobile{
@@ -434,6 +445,7 @@ span{
         margin-left: auto;
         margin-right: auto;
         margin-top: 25%;
+        width: fit-content;
     }
 
     #img-rece{
