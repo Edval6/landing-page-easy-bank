@@ -55,7 +55,8 @@ li a{
 
  #menu-icon{
         display: none;
- }    
+ }
+
 
 @media only screen and (max-device-width: 900px) {
     .btn{
@@ -93,6 +94,36 @@ a{
         margin-top: 7%;
         margin-left: 25%;
         
+    }
+
+    #menu-mobile{
+        display: none;
+        width: 90%;
+        position: absolute;
+        margin-left: 5%;
+    }
+
+    #ul-mobile{
+        width: 300px;
+        height: 270px;
+        background-color: white;
+        margin-top: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2%;
+    }
+
+    #li-mobile{
+        padding-top: 8%;
+    }
+
+    #li-mobile a{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: hsl(233, 26%, 24%);
     }
 }
 
