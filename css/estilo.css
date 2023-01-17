@@ -74,7 +74,7 @@ a{
 
 .introducao{
     width: 100%;
-    height: 1030px;
+    min-height: 1030px;
     background-color: hsl(0, 0%, 98%);
     display: flex;
     flex-direction: row;
@@ -105,6 +105,10 @@ margin-right: 15%;
     margin-left: -140px;
 }
 
+#intro-desk-hide{
+    margin-left: 0px;
+}
+
 h1{
     font-size: 50px;
     font-family: sans-serif;
@@ -131,6 +135,16 @@ p{
 
 }
 
+#img-mockups-hide{
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+#hide-img{
+    display: none;
+}
+
 @media only screen and (max-device-width: 900px) {
     .introducao{
         flex-direction: column;
@@ -148,6 +162,29 @@ p{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -10%;
+        padding-bottom: 20%;
+    }
+
+    #hide-img{
+        display: block;
+
+    }
+
+    #intro-desk-hide{
+        width: 100%;
+        }
+
+    #img-mockups-hide{
+        margin-top: -150%;
+        margin-bottom: 20%;
+        margin-left: 5%;
+        width: 90%;
+        }
+
+        h1{
+        font-size: 40px;
+        text-align: center;
     }
 }
 
