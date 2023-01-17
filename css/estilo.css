@@ -53,6 +53,10 @@ li a{
     padding: 15px;
 }
 
+ #menu-icon{
+        display: none;
+ }    
+
 @media only screen and (max-device-width: 900px) {
     .btn{
         margin-left: auto;
@@ -66,7 +70,29 @@ a{
 
 @media only screen and (max-device-width: 900px) {
     header{
+       
+    }
+
+    nav{
         display: none;
+    }
+
+    #abtn{
+        display: none;
+    }
+
+    .logo{
+        margin-top: 7%;
+        margin-left: 0%;
+    }
+
+    #menu-icon{
+        display: block;
+        width: 10%;
+        height: 20%;
+        margin-top: 7%;
+        margin-left: 25%;
+        
     }
 }
 
