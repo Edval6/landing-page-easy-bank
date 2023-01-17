@@ -220,6 +220,11 @@ h3{
 
 @media only screen and (max-device-width: 900px) {
 
+    .caracteristicas{
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
     .linha-carcteristicas{
         width: 90%;
         margin-left: auto;
@@ -232,6 +237,16 @@ h3{
         margin-right: auto;
         padding-top: 50px;
         align-items: center;
+    }
+
+    h2{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #min-p {
+        font-size: 18px;
     }
 }
 
@@ -296,24 +311,54 @@ span{
     font-size: 14px;
 }
 
+#img-rece-tam{
+    width: 246px;
+}
+#img-rece-tam1{
+    width: 246px;
+    height: 164px;
+}
+
 @media only screen and (max-device-width: 900px) {
 
     .linha-recentes{
         width: 100%;
         margin-top: 5%;
         margin-left: 6%;
+        padding-bottom: 30%;
         flex-direction: column;
     }
 
     .mini-recentes{
         width: 90%;
         margin-top: 5%;
+        border-radius: 2%;
     }
 
     #tit-recentes{
         margin-left: auto;
         margin-right: auto;
         margin-top: 25%;
+    }
+
+    #img-rece{
+        width: 100%;
+    }
+
+    #img-rece-tam{
+        width: 100%;
+    }
+    #img-rece-tam1{
+        width: 100%;
+        height: 100%;
+    }
+
+    #mini-paragrafo-rece {
+        padding-bottom: 50px;
+    }
+
+    #min-p-rece {
+        font-size: 18px;
     }
 
 }
@@ -324,7 +369,7 @@ span{
 
 footer{
     width: 100%;
-    height: 230px;
+    min-height: 230px;
     background-color: hsl(233, 26%, 24%);
     display: flex;
     flex-direction: row;
@@ -398,6 +443,67 @@ footer{
 #link-rights{
     font-size: 14px;
     color: hsl(233, 8%, 62%);
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social{
+        width: 60%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15%;
+    }
+
+    .nav-foot-left {
+        margin-left: 0;
+        margin-top: 10%;
+        width: 50%;
+        align-items: center;
+    }
+
+    .nav-foot-right{
+        margin-left: 0;
+        width: 50%;
+        align-items: center;
+    }
+
+    #direitos{
+        margin-left: 0;
+        padding-bottom: 15%;
+    }
+
+    #ul-foot{
+        width: 100%;
+    }
+
+    #li-foot{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #redes{
+        margin-top: 15%;
+        zoom: 150%;
+    }
+
+    #logo-social{
+        zoom: 130%;
+    }
+
+    #li-foot a {
+        font-size: 20px;
+    }
+
+    #p-rights {
+        zoom: 120%;
+    }
+
 }
 
 /*fim*/
