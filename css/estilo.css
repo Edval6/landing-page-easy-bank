@@ -41,6 +41,10 @@ li a{
     margin-top: 1%;
 }
 
+.acao:hover{
+    opacity: 70%;
+}
+
 .btn{
     width: 200px;
     height: 50px;
@@ -313,6 +317,7 @@ h2{
     padding-bottom: 20px;
 }
 
+
 #min-p{
     font-size: 16px;
 }
@@ -322,6 +327,14 @@ h3{
     font-family: sans-serif;
     color: hsl(233, 26%, 24%);
     font-weight: 50;
+}
+
+#tit-hover{
+    color: hsl(233, 26%, 24%);
+}
+
+#tit-hover:hover{
+    color: hsl(192, 70%, 51%);
 }
 
 @media only screen and (max-device-width: 900px) {
@@ -531,6 +544,20 @@ footer{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 50;
+}
+
+#li-foot a:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+#li-img{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#li-img:hover{
+    color: hsl(136, 65%, 51%);
+
 }
 
 #direitos{
